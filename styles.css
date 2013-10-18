@@ -1,0 +1,63 @@
+body {
+	width: 1200px;
+}
+p{
+	font-size: 20px;
+}
+.leftcol {
+	float: left;
+	background: yellow;
+	width: 580px;
+	-moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
+  	-webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
+  	box-shadow:         3px 3px 6px 2px #D3D3D3;
+  	border-radius: 16px;
+  	padding: 5px;
+  	border: 5px solid #0B27DB;
+}
+.rightcol {
+	float: right;
+	background: 24D6F2;
+	width:580px;
+	-moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
+  	-webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
+  	box-shadow:         3px 3px 6px 2px #D3D3D3;
+  	border-radius: 16px;
+  	padding: 5px;
+  	border: 5px solid #0B27DB;
+}
+.colname {
+	font-style: italic;
+}
+.header {
+	text-align: center;
+	background: #f60;
+	-moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
+  	-webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
+  	box-shadow:         3px 3px 6px 2px #D3D3D3;
+  	border-radius: 16px;
+  	padding: 5px;
+  	border: 5px solid #0B27DB;
+}
+.date {
+	width:100px;
+}
+.school {
+	font-variant: small-caps;
+	font-size: 24px;
+}
+.workplace {
+	font-variant: small-caps;
+	font-size: 24px;
+}
+footer {
+	clear: both;
+	background: gray;
+	-moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
+  	-webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
+  	box-shadow:         3px 3px 6px 2px #D3D3D3;
+  	border-radius: 16px;
+  	padding: 5px;
+  	border: 5px solid #0B27DB;
+  	text-align: center;
+}
