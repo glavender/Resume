@@ -3,45 +3,90 @@ body {
 	position: relative;
 	left: 1%;
 	right: 1%;
-	overflow: hidden;
+	overflow: scroll;
+  background: url(matrix.jpg) repeat;
 }
 p{
 	font-size: 20px;
 }
+
+.button{
+  width: 18%;
+  float:left;
+  background: navy;
+  -moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
+    -webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
+    box-shadow:         3px 3px 6px 2px #D3D3D3;
+    border-radius: 16px;
+    padding: 1%;
+    font-size: 24px;
+    margin: 5px 0px;
+    color: white;
+}
+.button a:link {
+  text-decoration:none;
+}
+.button:hover
+{ 
+background-color:purple;
+}
+
+#main {
+  clear: both;
+  overflow: hidden;
+}
+.leftcol:hover{
+  opacity: 1;
+}
+
+.rightcol:hover{
+  opacity: 1;
+}
+
 .leftcol {
 
 	float: left;
 	background: yellow;
-	width: 48%;
+	width: 47%;
 	-moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
   	-webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
   	box-shadow:         3px 3px 6px 2px #D3D3D3;
   	border-radius: 16px;
   	padding: 1%;
+    margin-right: 5px;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    opacity: 0.8;
 
 }
 .rightcol {
 	float: right;
 	background: 24D6F2;
-	width:48%;
+	width:47%;
 	-moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
   	-webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
   	box-shadow:         3px 3px 6px 2px #D3D3D3;
   	border-radius: 16px;
   	padding: 1%;
-  	
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+    opacity: 0.8;
+
 }
 .colname {
 	font-style: italic;
+  text-align: center;
+  font-size: 24px;
 }
-.header {
+header {
 	text-align: center;
-	background: #f60;
+	background: #f60; 
 	-moz-box-shadow:    3px 3px 5px 3px #D3D3D3;
   	-webkit-box-shadow: 3px 3px 5px 3px #D3D3D3;
   	box-shadow:         3px 3px 6px 2px #D3D3D3;
   	border-radius: 16px;
   	padding: 5px;
+    color: white;
 }
 .date {
 	width:100px;
@@ -54,6 +99,38 @@ p{
 	font-variant: small-caps;
 	font-size: 24px;
 }
+
+.home {
+  clear: both;
+  width: 500px;
+  height: 500px;
+  background: white;
+  text-align: center;
+  margin: auto;
+  font-size: 24px;
+  border-radius: 16px;
+  background: url(bubblegum.jpg);
+  background-size: cover;
+
+}
+.home p{
+  font-size: 36px;
+}
+
+#bott {
+  padding-top: 320px;
+}
+
+.contact {
+  clear: both;
+    border-radius: 16px;
+    background-color: white;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+text-align: center;
+}
+
 footer {
 	position: fixed;
 	bottom: 1%;
@@ -67,4 +144,8 @@ footer {
   	border-radius: 16px;
   	padding: 5px;
   	text-align: center;
+    opacity: 0.8;
+}
+footer:hover{
+  opacity: 1;
 }
